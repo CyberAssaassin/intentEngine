@@ -1,0 +1,5 @@
+hostname: Core-Router-A
+domain_name: enterprise.local
+loopback_ip: 10.255.255.1
+bgp_asn: 65001
+ntp_server: 192.168.100.10

@@ -1,0 +1,10 @@
+hostname Core-Router-A
+ip domain-name enterprise.local
+!
+interface Loopback0
+ ip address 10.255.255.1 255.255.255.255
+!
+router bgp 65001
+ bgp router-id 10.255.255.1
+!
+ntp server 192.168.100.10
